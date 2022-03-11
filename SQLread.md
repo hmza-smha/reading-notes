@@ -3,7 +3,7 @@
 # SQL & Databases
 
 ## Database
->### It is a collection of data stored in a format that can be easily be accessed.
+It is a collection of data stored in a format that can be easily be accessed.
 
 <br>
 
@@ -14,7 +14,7 @@
 
 
 ## DBMS 
->### A special software program, helps users to CRUD and maintain DBs.
+A special software program, helps users to CRUD and maintain DBs.
 
 <br>
 
@@ -37,18 +37,18 @@
 <br>
 
 ## What is query?
->## A query is made to the DBMS for a specific information.
+A query is made to the DBMS for a specific information.
 - A google search is a query.
 
 <br>
 
 # What is SQL?
->## A language used to interact with the DB. (CRUD)
+A language used to interact with the DB. (CRUD)
 
 <br>
 
 ## SQL Queries
-## To retrieve data from a SQL database, we need to write ***SELECT*** statements.
+To retrieve data from a SQL database, we need to write ***SELECT*** statements.
 
 ```sql
 SELECT (DISTINCT) <attributes_list>
@@ -65,10 +65,10 @@ The LIMIT will reduce the number of rows to return, and the optional OFFSET will
 <br>
 
 ## WHERE conditions
-## Conditions #1
+### Conditions #1
 ![image](images/conditions1.png)
 
-## Conditions #2
+### Conditions #2
 ![image](images/conditions2.png)
 
 # TASKS
