@@ -1,17 +1,18 @@
 # SQL & Databases
 
 ## Database
->## It is a collection of data stored in a format that can be easily be accessed.
+>### It is a collection of data stored in a format that can be easily be accessed.
+
+<br>
 
 ### Data can be stored in defferent ways:
   1. On paper.
   2. In your mind.
   3. On a PC 😍
 
-<br>
 
 ## DBMS 
->## A special software program, helps users to CRUD and maintain DBs.
+>### A special software program, helps users to CRUD and maintain DBs.
 
 <br>
 
@@ -31,6 +32,8 @@
 - JSON, XML
 - mongoDB, Firebase
 
+<br>
+
 ## What is query?
 >## A query is made to the DBMS for a specific information.
 - A google search is a query.
@@ -39,6 +42,8 @@
 
 # What is SQL?
 >## A language used to interact with the DB. (CRUD)
+
+<br>
 
 ## SQL Queries
 ## To retrieve data from a SQL database, we need to write ***SELECT*** statements.
@@ -55,7 +60,9 @@ LIMIT <num> OFFSET <start_num>;
 >- LIMIT and OFFSET are commonly used with the ORDER BY, which are a useful optimization to indicate to he database the subset of the results you care about.
 The LIMIT will reduce the number of rows to return, and the optional OFFSET will specify where to begin counting the number rows from.
 
-## WHERE clause
+<br>
+
+## WHERE conditions
 ## Conditions #1
 ![image](images/conditions1.png)
 
@@ -76,6 +83,8 @@ The LIMIT will reduce the number of rows to return, and the optional OFFSET will
 # What is a Schema?
 > Schema is describes the structure of each table, and the datatypes of each column.
 
+<br>
+
 ## ***INSERT***.
 
 ```sql
@@ -85,6 +94,8 @@ VALUES <val_1, val_2, ...>, <val_1, val_2, ...>
 
 - If a column has a default value, and you want that default value, use *default* keyword.
 
+<br>
+
 ## ***UPDATE***.
 ```sql
 UPDATE <table_name>
@@ -92,6 +103,8 @@ SET <col_1 = val, col_2 = val, ...>
 WHERE <condition>
 ```
 - If you leave the *WHERE* all records will be updated.
+
+<br>
 
 ## ***DELETE***.
 
@@ -102,6 +115,8 @@ WHERE <condition>;
 - If you leave the *WHERE* all records will be deleted.
 
 >it's recommended that you run the constraint in a SELECT query first to ensure that you are removing the right rows. Without a proper backup or test database, it is downright easy to irrevocably remove data, so always read your DELETE statements twice and execute once.
+
+<br>
 
 ## ***Creating Table***
 
@@ -118,6 +133,8 @@ CREATE TABLE IF NOT EXISTS mytable (
 
 ## constraints
 ![image](images/constraints.png)
+
+<br>
 
 
 ## ***ALTER***
@@ -141,6 +158,8 @@ Altering table name
 ALTER TABLE mytable
 RENAME TO new_table_name;
 ```
+
+<br>
 
 ## ***DROP TABLES***
 ```sql
