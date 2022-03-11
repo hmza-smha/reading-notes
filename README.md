@@ -4,7 +4,7 @@
 
 | Week No. | Content|
 |:---------: |:--------------|
-|1|[SQL read](SQLread.md)|
+|1|[SQL read](SQLread.md) <br> [CLI read](CLIread.md)| 
 
 
 
