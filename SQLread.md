@@ -167,3 +167,10 @@ RENAME TO new_table_name;
 ```sql
 DROP TABLE IF EXISTS mytable;
 ```
+
+![image](images/13.png)
+![image](images/14.png)
+![image](images/15.png)
+![image](images/16.png)
+![image](images/17.png)
+![image](images/18.png)
