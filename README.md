@@ -4,8 +4,7 @@
 
 | Week No. | Content|
 |:---------: |:--------------|
-|1|[SQL read](SQLread.md) <br> [CLI read](CLIread.md) <br> [C# read](CSharpRead.md)
- <br> [Exception Handling read](ExceptionHandling.md)| 
+|1|[SQL read](SQLread.md) <br> [CLI read](CLIread.md) <br> [C# read](CSharpRead.md) <br> [Exception Handling read](ExceptionHandling.md)| 
 
 
 
