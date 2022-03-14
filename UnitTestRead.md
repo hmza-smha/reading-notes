@@ -1,6 +1,12 @@
 # Unit Testing
 
-## Unit tests isolate and exercise specific units of your code.
+### In Software Engineering we have various testing for the product:
+1. Unit Testing (for a pice of code)
+2. Intergration Testing (Detailed Design)
+3. System Testing (The Functionallity)
+4. Acceptence (Customer Acceptation)
+
+### Unit tests isolate and exercise specific units of your ***code***.
 you can think of a unit as a method.  You thus write a unit test by writing something that tests a method.
 
 > Unit test methods useually thows defferent exceptions.
