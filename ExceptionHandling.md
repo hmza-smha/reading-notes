@@ -21,6 +21,9 @@ finally {
 ```
 > First try block try to handle it if not then catch block will handle it. Finally block will executed regardless of the outcome
 
+# Throws VS try/catch
+
+'throw' generates an exception that travels up the call stack, 'try' enables you to catch exceptions generated inside the block and in code called inside the block.
 
 # Debugging
 Debugging is the process of finding errors during application execution. It does not mean syntax errors, with which the application cannot be compiled, but on logic errors. Logic errors can only be noticed during application execution.
