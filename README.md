@@ -5,21 +5,22 @@
 
 ## Table Of Content
 
-|Week No.|Content|
-|--------|-------|
-|1       | [SQL read](SQLread.md) [CLI read](CLIread.md) [C# read](CSharpRead.md) [Exception Handling read](ExceptionHandling.md) [Unit Test read](UnitTestRead.md) [Time Complexity read](ComplexityRead.md) |
-
-
-***
-
-|Week No.|Content|
-|--------|-------|
-|2       | [SQL read](SQLread.md) [CLI read](CLIread.md) [C# read](CSharpRead.md) [Exception Handling read](ExceptionHandling.md) [Unit Test read](UnitTestRead.md) [Time Complexity read](ComplexityRead.md) |
-
 ### Week 1
+[SQL read](SQLread.md) <br>
+[CLI read](CLIread.md) <br>
+[C# read](CSharpRead.md) <br>
+[Exception Handling read](ExceptionHandling.md) <br>
+[Unit Test read](UnitTestRead.md) <br>
+[Time Complexity read](ComplexityRead.md)
 
-[SQL read](SQLread.md) [CLI read](CLIread.md) [C# read](CSharpRead.md) [Exception Handling read](ExceptionHandling.md) [Unit Test read](UnitTestRead.md) [Time Complexity read](ComplexityRead.md)
-
+<br>
 ---
+<br>
 
 ### Week 2
+[SQL read](SQLread.md) <br>
+[CLI read](CLIread.md) <br>
+[C# read](CSharpRead.md) <br>
+[Exception Handling read](ExceptionHandling.md) <br>
+[Unit Test read](UnitTestRead.md) <br>
+[Time Complexity read](ComplexityRead.md)
