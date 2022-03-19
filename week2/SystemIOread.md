@@ -1,6 +1,8 @@
 [Reference](https://docs.microsoft.com/en-us/dotnet/standard/io/) <br>
-[How to: Write text to a file](SystemIOread.md) <br>
-[How to: Create file](CreateFile.md)<br>
+
+[How to: Write text to a file](./WriteTextToFile.md) <br>
+
+[How to: Create file](./CreateFile.md) <br>
 
 # File and Stream I/O
 File and stream I/O (input/output) refers to the transfer of data either to or from a storage medium.
