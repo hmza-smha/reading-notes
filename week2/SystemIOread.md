@@ -1,9 +1,3 @@
-[Reference](https://docs.microsoft.com/en-us/dotnet/standard/io/) <br>
-
-[How to: Write text to a file](./WriteTextToFile.md) <br>
-
-[How to: Create file](./CreateFile.md) <br>
-
 # File and Stream I/O
 File and stream I/O (input/output) refers to the transfer of data either to or from a storage medium.
 
@@ -93,3 +87,11 @@ For more information, see [Asynchronous File I/O](https://docs.microsoft.com/en-
 
 ## Compression
 Compression refers to the process of reducing the size of a file for storage. Decompression is the process of extracting the contents of a compressed file so they are in a usable format. The [System.IO.Compression](https://docs.microsoft.com/en-us/dotnet/api/system.io.compression?view=net-6.0) namespace contains types for compressing and decompressing files and streams.
+
+***
+
+- [How to: Write text to a file](./WriteTextToFile.md) <br>
+
+- [How to: Create file](./CreateFile.md) <br>
+
+[Reference](https://docs.microsoft.com/en-us/dotnet/standard/io/) <br>

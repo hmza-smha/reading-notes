@@ -1,5 +1,3 @@
-[Reference](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-write-text-to-a-file)
-
 ## How to: Write text to exist file
 
 The following classes and methods are typically used to write text to a file:
@@ -45,3 +43,7 @@ class Program
     }
 }
 ```
+
+***
+
+[Reference](https://docs.microsoft.com/en-us/dotnet/standard/io/how-to-write-text-to-a-file)
