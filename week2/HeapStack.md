@@ -10,5 +10,10 @@ The ***Heap*** is more or less responsible for keeping track of our objects.
 The ***Stack*** is LIFO of excution (keep track of excution).
 The ***Heap*** holding information (not keep track of execution most of the time) so anything in our Heap can be accessed at any time.
 
-## What goes on the Stack and Heap?
-Value Types, Reference Types, Pointers, and Instructions. 
+The ***Stack*** is self-maintaining, meaning that it basically takes care of its own memory management.  When the top element is no longer used, it's thrown out.
+The ***Heap***, has to worry about *Garbage collection (GC)*, which deals with how to keep the Heap clean.
+
+<br>
+
+***
+[GarbageCollection](./GarbageCollection.md)
