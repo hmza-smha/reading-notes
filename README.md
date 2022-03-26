@@ -4,16 +4,14 @@
 
 <br>
 
-### Data Structures & Algorithms
-
-|Link|Content|
+|Data Structures & Algorithms|Content|
 |:-: | :-    |
 |[read](DSA/Complexity.md)|Time Complexity|
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
 
-### Week #1
+<br>
 
-|Link|Content|
+|Week 1|Content|
 |:-: | :-    |
 |[read](week1/SQL.md)|SQL intro|
 |[read](week1/CLI.md)|CLI intro|
@@ -21,9 +19,9 @@
 |[read](week1/ExceptionHandling.md)|Exception Handling|
 |[read](week1/UnitTest.md)|Unit Test|
 
-### Week #2
+<br>
 
-|Link|Content|
+|Week 2|Content|
 |:-: | :-    |
 |[read](week2/SystemIO.md)|System IO|
 |[read](week2/OOP/OOP.md)|What is OOP?|
@@ -32,13 +30,11 @@
 |[read](week2/HeapStack.md)|Heap & Stack|
 |[read](week2/GarbageCollection.md)|Garbage Collection|
 
-### Week #3
+<br>
 
-|Link|Content|
+|Week 3|Content|
 |:-: | :-    |
 |[read](week3/Inheritance.md)|Inheritance|
 |[read](week3/Interface.md)|Interface|
 |[read](week3/Abstract.md)|Abstract|
 |[read](week3/Polymorphism.md)|Polymorphism|
-|[read](week2/HeapStack.md)|Heap & Stack|
-|[read](week2/GarbageCollection.md)|Garbage Collection|
