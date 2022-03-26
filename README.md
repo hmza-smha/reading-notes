@@ -2,24 +2,49 @@
 
 ## This website contains a notes of *<span style="font-family:Papyrus; font-size:1.5em">amman-dotnet-d1</span>* course.
 
-
-## Table Of Content
+<br>
 
 ### Data Structures & Algorithms
-[Time Complexity](DSA/Complexity.md) <br>
-[Singly Linked List](DSA/SinglyLinkedList.md) <br>
 
-<br>
+|Link|Content|
+|:-: | :-    |
+|[read](DSA/Complexity.md)|Time Complexity|
+|[read](DSA/SinglyLinkedList.md)|Singly Linked List|
 
 ---
 
-<br>
+### Week #1
 
-### Lectures
-| Week No. | Content |
-| :---:    | :---    |
-| 1        | [SQL intro](week1/SQL.md) <br> [CLI intro](week1/CLI.md) <br> [C# intro](week1/CSharp.md) <br>[Exception Handling](week1/ExceptionHandling.md) <br>[Unit Test](week1/UnitTest.md)|
-|       |        |
-| 2     | [System IO](week2/SystemIO.md) <br> [What is OOP?](week2/OOP//OOP.md) <br> [Classes & Objects](week2/OOP/ClassesObjects.md) <br> [Constructors](week2/OOP/Constructors.md) <br> [Properties get; set;](week2/Properties.md) <br> [Heap & Stack](week2/HeapStack.md) <br> [Garbage Collection](week2/GarbageCollection.md)|
-|       |        |
-| 3     |[Inheritance](week3/Inheritance.md) <br> [Interface](week3/Interface.md) <br> [Abstract](week3/Abstract.md)  <br> [Polymorphism](week3/Polymorphism.md)|
+|Link|Content|
+|:-: | :-    |
+|[read](week1/SQL.md)|SQL intro|
+|[read](week1/CLI.md)|CLI intro|
+|[read](week1/CSharp.md)|C# intro|
+|[read](week1/ExceptionHandling.md)|Exception Handling|
+|[read](week1/UnitTest.md)|Unit Test|
+
+---
+
+### Week #2
+
+|Link|Content|
+|:-: | :-    |
+|[read](week2/SystemIO.md)|System IO|
+|[read](week2/OOP/OOP.md)|What is OOP?|
+|[read](week2/OOP/ClassesObjects.md)|Classes & Objects|
+|[read](week2/Properties.md)|Properties get; set;|
+|[read](week2/HeapStack.md)|Heap & Stack|
+|[read](week2/GarbageCollection.md)|Garbage Collection|
+
+---
+
+### Week #3
+
+|Link|Content|
+|:-: | :-    |
+|[read](week3/Inheritance.md)|Inheritance|
+|[read](week3/Interface.md)|Interface|
+|[read](week3/Abstract.md)|Abstract|
+|[read](week3/Polymorphism.md)|Polymorphism|
+|[read](week2/HeapStack.md)|Heap & Stack|
+|[read](week2/GarbageCollection.md)|Garbage Collection|
