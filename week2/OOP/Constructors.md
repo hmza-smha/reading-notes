@@ -44,3 +44,79 @@ If all the methods in the class are static, consider making the complete class s
 - We can use a public function to call the private constructor if an object is not initialized.
 - We can return only the instance of that object if an object is already initialized.
 
+# Private Constructors
+
+### It can only access the static member(s) of the class.
+Reason : Non static member is specific to the object instance. If static constructor are allowed to work on non static members it will reflect the changes in all the object instance, which is impractical.
+
+### There should be no parameter(s) in static constructor.
+Reason: Since, It is going to be called by CLR, nobody can pass the parameter to it.
+
+### Only one static constructor is allowed.
+Reason: Overloading needs the two methods to be different in terms of method/constructor definition which is not possible in static constructor.
+
+### There should be no access modifier to it.
+Reason: Again the reason is same call to static constructor is made by CLR and not by the object, no need to have access modifier to it
+
+<br>
+
+A static constructor is used to initialize any static data, or to perform a particular action that needs performed once only. It is called automatically before the first instance is created or any static members are referenced.
+
+Static constructors have the following properties:
+
+1. A static constructor does not take access modifiers or have parameters.
+
+2. A static constructor is called automatically to initialize the class before the first instance is created or any static members are referenced.
+
+3. A static constructor cannot be called directly.
+
+4. The user has no control on when the static constructor is executed in the program.
+
+5. A typical use of static constructors is when the class is using a log file and the constructor is used to write entries to this file.
+
+<br>
+
+Static constructors are also very useful when you have static fields that rely upon each other such that the order of initialization is important. If you run your code through a formatter/beautifier that changes the order of the fields then you may find yourself with null values where you didn't expect them.
+
+Example: Suppose we had this class:
+
+```c#
+class ScopeMonitor
+{
+    static string urlFragment = "foo/bar";
+    static string firstPart= "http://www.example.com/";
+    static string fullUrl= firstPart + urlFragment;
+}
+```
+
+When you access fullUr, it will be "http://www.example.com/foo/bar".
+
+Months later you're cleaning up your code and alphabetize the fields (let's say they're part of a much larger list, so you don't notice the problem). You have:
+
+```c#
+class ScopeMonitor
+{
+    static string firstPart= "http://www.example.com/";
+    static string fullUrl= firstPart + urlFragment;
+    static string urlFragment = "foo/bar";
+}
+```
+
+Your fullUrl value is now just "http://www.example.com/" since urlFragment hadn't been initialized at the time fullUrl was being set. Not good. So, you add a static constructor to take care of the initialization:
+
+```c#
+class ScopeMonitor
+{
+    static string firstPart= "http://www.example.com/";
+    static string fullUrl;
+    static string urlFragment = "foo/bar";
+
+    static ScopeMonitor()
+    {
+        fullUrl= firstPart + urlFragment;
+
+    }
+}
+```
+
+Now, no matter what order you have the fields, the initialization will always be correct.
