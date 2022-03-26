@@ -5,14 +5,14 @@
 <br>
 
 |Data Structures & Algorithms|Content|
-|:-: | :-    |
+|:-----------: | :-----------    |
 |[read](DSA/Complexity.md)|Time Complexity|
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
 
 <br>
 
 |Week 1|Content|
-|:-: | :-    |
+|:----------: | :----------    |
 |[read](week1/SQL.md)|SQL intro|
 |[read](week1/CLI.md)|CLI intro|
 |[read](week1/CSharp.md)|C# intro|
@@ -22,7 +22,7 @@
 <br>
 
 |Week 2|Content|
-|:-: | :-    |
+|:----------: | :----------    |
 |[read](week2/SystemIO.md)|System IO|
 |[read](week2/OOP/OOP.md)|What is OOP?|
 |[read](week2/OOP/ClassesObjects.md)|Classes & Objects|
@@ -33,7 +33,7 @@
 <br>
 
 |Week 3|Content|
-|:-: | :-    |
+|:----------: | :----------    |
 |[read](week3/Inheritance.md)|Inheritance|
 |[read](week3/Interface.md)|Interface|
 |[read](week3/Abstract.md)|Abstract|
