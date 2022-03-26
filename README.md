@@ -11,8 +11,6 @@
 |[read](DSA/Complexity.md)|Time Complexity|
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
 
----
-
 ### Week #1
 
 |Link|Content|
@@ -22,8 +20,6 @@
 |[read](week1/CSharp.md)|C# intro|
 |[read](week1/ExceptionHandling.md)|Exception Handling|
 |[read](week1/UnitTest.md)|Unit Test|
-
----
 
 ### Week #2
 
@@ -35,8 +31,6 @@
 |[read](week2/Properties.md)|Properties get; set;|
 |[read](week2/HeapStack.md)|Heap & Stack|
 |[read](week2/GarbageCollection.md)|Garbage Collection|
-
----
 
 ### Week #3
 
