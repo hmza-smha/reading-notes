@@ -44,3 +44,4 @@
 |Week 4|Content|
 |:----------: | :----------    |
 |[read](week4/Collections.md)|Collections|
+|[read](week4/Enum.md)|Enum|
