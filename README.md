@@ -37,6 +37,7 @@
 |[read](week3/Inheritance.md)|Inheritance|
 |[read](week3/Abstract.md)|Abstract|
 |[read](week3/Polymorphism.md)|Polymorphism|
+|[read](week3/Encapsulation.md)|Encapsulation|
 |[read](week3/Interface.md)|Interfaces|
 
 <br>
