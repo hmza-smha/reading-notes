@@ -46,3 +46,4 @@
 |:----------: | :----------    |
 |[read](week4/Collections.md)|Collections|
 |[read](week4/Enum.md)|Enum|
+|[read](week4/LINQ.md)|LINQ|
