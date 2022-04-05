@@ -69,15 +69,17 @@ Whenever possible, you should use the generic collections in the ```System.Colle
 
 <br>
 
-## Implementing a Collection of Key/Value Pairs
+## Implementing a Collection of Key/Value Pairs ```Dictionary<TKey,TValue>```
 The ```Dictionary<TKey,TValue>``` generic collection enables you to access to elements in a collection by using the key of each element. Each addition to the dictionary consists of a value and its associated key. Retrieving a value by using its key is fast because the ```Dictionary``` class is implemented as a hash table.
 
+- The key must be unique.
 
 ```c#
 private static void IterateThruDictionary()
 {
     Dictionary<string, Element> elements = BuildDictionary();
 
+    // Every element in the Dictunary is represent as KeyValuePair
     foreach (KeyValuePair<string, Element> kvp in elements)
     {
         Element theElement = kvp.Value;

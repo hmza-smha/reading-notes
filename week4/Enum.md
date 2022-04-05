@@ -62,3 +62,31 @@ enum color
 2. The compiler assigns values to the enum items if we fail to assign them. The first item is assigned 0 and the compiler increments by one.
 
 3. We can only assign integral values to the enum names. We should not assign strings as values.
+
+---
+
+```c#
+class Program
+    {
+        enum Day{
+            Sun = 1,
+            Mon,
+            Tue,
+            Wed,
+            Thu,
+            Fri,
+            Sat
+        }
+        class Date
+        {
+            public Day Day { get; set; }
+        }
+        
+        static void Main(string[] args)
+        {
+            Date date = new Date();
+            date.Day = Day.Mon;
+        }
+    }
+```
+
