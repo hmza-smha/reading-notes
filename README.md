@@ -8,6 +8,8 @@
 |:-----------: | :-----------    |
 |[read](DSA/Complexity.md)|Time Complexity|
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
+|[read](DSA/Stack.md)|Stack|
+|[read](DSA/Queue.md)|Queue|
 
 <br>
 
