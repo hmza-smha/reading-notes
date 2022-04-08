@@ -1,43 +1,53 @@
 # Collections
 
-For many applications, you want to create and manage groups of related objects. There are two ways to group objects: by creating arrays of objects, and by creating collections of objects.
+### Collections are classes that we can use to store a collection of Objects.
+### Not limited to one type of Objecs
+### No fixed size
+
+
+**Why do we need collections?**
+For many applications, you want to create and manage groups of related objects. There are two ways to group objects:***by creating arrays of objects***, and ***by creating collections of objects***.
 
 ***Collections*** provide a more flexible way to work with groups of objects. Unlike *arrays*, the group of objects you work with can **grow** and **shrink** dynamically as the needs of the application change.
 
-For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key.
+For some collections, you can assign a key to any object that you put into the collection so that you can quickly retrieve the object by using the key, like ```Dictionary``` in c# and ```map``` in Java.
 
 A collection is a **class**, so you must declare an instance of the class before you can add elements to that collection.
 
 ### Note:
 - If your collection contains elements of only one data type, you can use one of the classes in the ```System.Collections.Generic``` namespace.
 
-A generic collection enforces type safety so that no other data type can be added to it.
-
-When you retrieve an element from a generic collection, you do not have to determine its data type or convert it.
-
 ### Example
-the generic ```List<T>``` class, which enables you to work with a strongly typed list of objects.
+the generic ```List<T>``` class, which enables you to work with a *strongly typed list of objects.*
 
 ```c#
-// Create a list of strings.
-var salmons = new List<string>();
-salmons.Add("chinook");
-salmons.Add("coho");
-salmons.Add("pink");
-salmons.Add("sockeye");
+// array list containes elements from type Object, Non-Generic, not strongly typed
+ArrayList arrayList = new ArrayList();
+arrayList.Add("hello");
+arrayList.Add(5);
 
-// Iterate through the list.
-foreach (var salmon in salmons)
-{
-    Console.Write(salmon + " ");
-}
-// Output: chinook coho pink sockeye
+// array list containes elements from type int, Generic, strongly typed
+List<int> s = new List<int>();
+s.Add(1);
+s.Add(2);
 ```
 
 ## Kinds of Collections
+- ```System.Collections``` classes
 - ```System.Collections.Generic``` classes
 - ```System.Collections.Concurrent``` classes
-- ```System.Collections``` classes
+
+
+### System.Collections
+The classes in the ```System.Collections``` namespace do not store elements as specifically typed objects, but as objects of type ```Object```.
+
+| Class | Description |
+|:----- | :-----      |
+|ArrayList|	Represents an array of objects whose size is dynamically increased as required.|
+|Hashtable|	Represents a collection of key/value pairs that are organized based on the hash code of the key.|
+|Queue|	Represents a first in, first out (FIFO) collection of objects.|
+|Stack|	Represents a last in, first out (LIFO) collection of objects.|
+
 
 ### System.Collections.Generic
 A generic collection is useful when every item in the collection has the same data type. A generic collection enforces strong typing by allowing only the desired data type to be added.
@@ -53,16 +63,6 @@ A generic collection is useful when every item in the collection has the same da
 ### System.Collections.Concurrent
 
 The classes in the ```System.Collections.Concurrent``` namespace should be used whenever multiple threads are accessing the collection concurrently.
-
-### System.Collections
-The classes in the System.Collections namespace do not store elements as specifically typed objects, but as objects of type ```Object```.
-
-| Class | Description |
-|:----- | :-----      |
-|ArrayList|	Represents an array of objects whose size is dynamically increased as required.|
-|Hashtable|	Represents a collection of key/value pairs that are organized based on the hash code of the key.|
-|Queue|	Represents a first in, first out (FIFO) collection of objects.|
-|Stack|	Represents a last in, first out (LIFO) collection of objects.|
 
 #### Hint:
 Whenever possible, you should use the generic collections in the ```System.Collections.Generic``` namespace or the ```System.Collections.Concurrent``` namespace instead of the legacy types in the ```System.Collections``` namespace.
@@ -135,6 +135,7 @@ private static void FindInDictionary(string symbol)
 
 ## Defining a Custom Collection
 You can define a collection by implementing the ```IEnumerable<T>``` or ```IEnumerable``` interface.
+["IEnumerable & IEnumerator"](./IEnumerableAndIEnumerator.md)
 
 The following example defines a custom collection class named ```AllColors```. This class implements the ```IEnumerable``` interface, which requires that the ```GetEnumerator``` method be implemented.
 
