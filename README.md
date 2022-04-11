@@ -56,3 +56,4 @@
 |Week 5|Content|
 |:----------: | :----------    |
 |[read](week5/JSON.md)|JSON|
+|[read](week5/ERDs.md)|ERDs|
