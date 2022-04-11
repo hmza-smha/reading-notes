@@ -131,5 +131,68 @@ foreach (char s in firstame)
 
 The C# compiler will simply compile the foreach syntax to the exact same code (intermediate language) with the previous example
 
-### Conclusion
-All in all, understanding where the enumerator design pattern comes from is very useful. I hope this has been informative and you found what you are looking for.
+
+<br>
+
+## Looping in LinkedList
+
+```c#
+public IEnumerator GetEnumerator()
+{
+    Node cur = Head;
+    while (cur != null)
+    {
+        yield return cur;
+        cur = cur.Next;
+    }
+}
+
+// in main method
+
+forearch(Node n in list){
+    Console.WriteLine(n.Data);
+}
+```
+
+<br>
+
+----
+
+<br>
+
+```c#
+public class Student : IEnumerable
+{
+    private List<Student> students;
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public int Grade { get; set; }
+    public Student(int age, int grade)
+    {
+        Age=age;
+        Grade=grade;
+    }
+    public Student()
+    {
+        students = new List<Student>
+        {
+            new Student(22, 99),
+            new Student(21, 95),
+        };
+    }
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return students.GetEnumerator();
+    }
+}
+
+
+// main methos
+Student student = new Student();
+
+foreach (Student s in student)
+{
+    if (s.Grade > 95)
+        Console.WriteLine(s.Name);
+}
+```
