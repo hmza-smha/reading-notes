@@ -57,3 +57,5 @@
 |:----------: | :----------    |
 |[read](week5/JSON.md)|JSON|
 |[read](week5/ERDs.md)|ERDs|
+|[read](week5/EntityFramework.md)|Entity Framework|
+|[read](week5/UserSecrets.md)|User Secrets|
