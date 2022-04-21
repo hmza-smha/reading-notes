@@ -10,6 +10,7 @@
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
 |[read](DSA/Stack.md)|Stack|
 |[read](DSA/Queue.md)|Queue|
+|[read](DSA/Trees.md)|Trees|
 
 <br>
 
