@@ -46,3 +46,5 @@
 |[read](week5/UserSecrets.md)|User Secrets|
 |Week 6| ---------- |
 |[read](week6/DependencyInjection.md)|Dependency injection in ASP.NET Core|
+|[read](week6/ASP.NETMVCRouting.md)|ASP.NET MVC Routing|
+|[read](week6/ASP.NETCoreRouting.md)|ASP.NET Core Routing|
