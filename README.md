@@ -50,3 +50,5 @@
 |[read](week6/ASP.NETCoreRouting.md)|ASP.NET Core Routing|
 |Week 7| ---------- |
 |[read](week7/DTOs.md)|DTOs|
+|[read](week7/Swagger.md)|Swagger|
+|[read](week7/UnitTests.md)|UnitTests|
