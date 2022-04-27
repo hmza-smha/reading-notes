@@ -1,5 +1,4 @@
-# Data Transfer Objects
-
+# Data Transfer Objects *(Re-Shape Object)*
 ### Senario:
 The client receives data that maps directly to your database tables. However, that's not always a good idea. Sometimes you want to change the shape of the data that you send to client. For example, you might want to:
 

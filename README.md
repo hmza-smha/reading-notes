@@ -52,3 +52,4 @@
 |[read](week7/DTOs.md)|DTOs|
 |[read](week7/Swagger.md)|Swagger|
 |[read](week7/UnitTests.md)|UnitTests|
+|[read](week7/Identity.md)|Identity|
