@@ -4,7 +4,7 @@
 
 <br>
 
-|Data Structures & Algorithms|Content|
+|Data Structures <br> & Algorithms|Content|
 |:-----------: | :-----------    |
 |[read](DSA/Complexity.md)|Time Complexity|
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
@@ -12,7 +12,11 @@
 |[read](DSA/Queue.md)|Queue|
 |[read](DSA/Trees.md)|Trees|
 
-<br>
+|Resources|Content|
+|:-----------: | :-----------    |
+|[read](Resources/ef-web-app.md)|Entity Framework|
+|[read](Resources/di-repository-workshop.md)|Dependency Injection|
+|[read](Resources/identity.md)|Identity|
 
 |Week 1|Content|
 |:----------: | :----------    |
@@ -53,3 +57,6 @@
 |[read](week7/Swagger.md)|Swagger|
 |[read](week7/UnitTests.md)|UnitTests|
 |[read](week7/Identity.md)|Identity|
+|Week 8| Eid 2/5/2022  |
+|Week 9| ---------- |
+|[read](week9/Authentication.md)|Authentication & Authorization|
