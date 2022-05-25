@@ -18,6 +18,8 @@
 |[read](Resources/ef-web-app.md)|Entity Framework|
 |[read](Resources/di-repository-workshop.md)|Dependency Injection|
 |[read](Resources/identity.md)|Identity|
+|[read](Resources/api_testing.md)|Api Testing|
+|[read](Resources/swagger.md)|Swagger|
 
 |Week 1|Content|
 |:----------: | :----------    |
