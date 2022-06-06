@@ -12,6 +12,7 @@
 |[read](DSA/Queue.md)|Queue|
 |[read](DSA/Trees.md)|Trees|
 |[read](DSA/InsertionSort.md)|Insertion Sort|
+|[read](DSA/HashTables.md)|Hash Tables|
 
 |Resources|Content|
 |:-----------: | :-----------    |
