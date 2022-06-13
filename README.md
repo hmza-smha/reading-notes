@@ -61,3 +61,4 @@
 |[read](Lectures/ViewsMVC.md)|Views MVC|
 |[read](Lectures/HttpCookies.md)|HTTP cookies|
 |[read](Lectures/RazorPages.md)|Razor Pages|
+|[read](Lectures/ViewComponents.md)|View Components|
