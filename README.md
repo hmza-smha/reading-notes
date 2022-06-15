@@ -4,8 +4,14 @@
 
 <br>
 
-|Data Structures <br> & Algorithms|Content|
-|:-----------: | :-----------    |
+|Read|Content |
+|:----------: | :----------    |
+|[resources](Resources/ef-web-app.md)|Entity Framework|
+|[resources](Resources/di-repository-workshop.md)|Dependency Injection|
+|[resources](Resources/identity.md)|Identity|
+|[resources](Resources/api_testing.md)|Api Testing|
+|[resources](Resources/swagger.md)|Swagger|
+|Data Structures & Algorithms| |
 |[read](DSA/Complexity.md)|Time Complexity|
 |[read](DSA/SinglyLinkedList.md)|Singly Linked List|
 |[read](DSA/Stack.md)|Stack|
@@ -13,17 +19,7 @@
 |[read](DSA/Trees.md)|Trees|
 |[read](DSA/InsertionSort.md)|Insertion Sort|
 |[read](DSA/HashTables.md)|Hash Tables|
-
-|Resources|Content|
-|:-----------: | :-----------    |
-|[read](Resources/ef-web-app.md)|Entity Framework|
-|[read](Resources/di-repository-workshop.md)|Dependency Injection|
-|[read](Resources/identity.md)|Identity|
-|[read](Resources/api_testing.md)|Api Testing|
-|[read](Resources/swagger.md)|Swagger|
-
-|Link|Content|
-|:----------: | :----------    |
+|Lectures| |
 |[read](Lectures/SQL.md)|SQL intro|
 |[read](Lectures/CLI.md)|CLI intro|
 |[read](Lectures/CSharp.md)|C# intro|
@@ -62,3 +58,4 @@
 |[read](Lectures/HttpCookies.md)|HTTP cookies|
 |[read](Lectures/RazorPages.md)|Razor Pages|
 |[read](Lectures/ViewComponents.md)|View Components|
+|[read](Lectures/Sendgrid.md)|Sendgrid|
