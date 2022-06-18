@@ -19,6 +19,7 @@
 |[read](DSA/Trees.md)|Trees|
 |[read](DSA/InsertionSort.md)|Insertion Sort|
 |[read](DSA/HashTables.md)|Hash Tables|
+|[read](DSA/Graphs.md)|Graphs|
 |Lectures| |
 |[read](Lectures/SQL.md)|SQL intro|
 |[read](Lectures/CLI.md)|CLI intro|
