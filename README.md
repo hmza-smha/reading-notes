@@ -21,7 +21,7 @@
 |[read](DSA/HashTables.md)|Hash Tables|
 |[read](DSA/Graphs.md)|Graphs|
 |Lectures| |
-|[read](Lectures/SQL.md)|SQL intro|
+|[read](Lectures/database/SQL.md)|SQL intro|
 |[read](Lectures/CLI.md)|CLI intro|
 |[read](Lectures/CSharp.md)|C# intro|
 |[read](Lectures/ExceptionHandling.md)|Exception Handling|
@@ -60,3 +60,8 @@
 |[read](Lectures/RazorPages.md)|Razor Pages|
 |[read](Lectures/ViewComponents.md)|View Components|
 |[read](Lectures/Sendgrid.md)|Sendgrid|
+|[read](Lectures/Database/StoredProcedure.md)|StoredProcedure|
+|[read](Lectures/Database/Views.md)|Views|
+|[read](Lectures/Database/ViewsVsStoredProcedure.md)|Views|
+|[read](Lectures/Database/Trigger.md)|Triggers|
+|[read](Lectures/Database/Index.md)|Index|
