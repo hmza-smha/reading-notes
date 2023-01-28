@@ -67,3 +67,4 @@
 |[read](Lectures/Database/FunctionsVsStoredProcedure.md)|Functions VS Stored Procedure|
 |[read](Lectures/Database/Trigger.md)|Triggers|
 |[read](Lectures/Database/Index.md)|Index|
+|[read](Lectures/Database/ApplyVsJoins.md)|Apply VS Joins *(SQL Server)*|
